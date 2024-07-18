@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.title-heart {
+  display: flex;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+  margin-right: 25px;
+}
+.heart {
+  margin-top: -20px;
+}
+.title,
+.heart {
+  font-size: 30px;
+  color: white;
+  /* border: 2px black solid;  */
+  padding: 10px;
+  /* margin-right: 50px; */
+}
+
+.navlinks {
+  /* border: 2px, solid black;  */
+  padding: 10px;
+  /* margin: 10px; */
+  margin-left: 40px;
+}
+
+nav a {
+  padding: 10px;
+}
+/* 2nd half of nav bar */
+.navbar2 {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* flex-direction: row; */
+}
+
+.dropdown-paw {
+  /* display: inline-block; */
+  display: flex;
+  padding: 10px;
+  /* justify-content: center; */
+  margin-left: 55px;
+}
+
+.paw {
+  width: 55px;
+}
+
+.purplebtn {
+  display: flex;
+  /* justify-content: center; */
+  /* margin: auto; */
+  /* margin-top: -50px; */
+  width: 200px;
+  height: 30px;
+  padding-top: 10px;
+  /* margin: auto */
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.dropdown-pin {
+  display: flex;
+}

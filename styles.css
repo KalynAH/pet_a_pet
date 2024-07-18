@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.blue-bar {
+  background-color: teal;
+}
+
+.petline1,
+.title-pic {
+  display: flex;
+
+  /* justify-content: right; */
+  justify-content: left;
+  margin: 30px;
+}
+
+.petline1 {
+  margin-right: 30px;
+}
+
+.title-pic {
+  margin-top: 10px;
+}
+
+nav a {
+  /* justify-content: left; */
+  color: black;
+  font-weight: bold;
+  /* justify-content: space-between; */
+  text-decoration: none;
+  font-size: 30px;
+  /* display: inline; */
+  padding: 10px;
+}
+
+.navlinks {
+  /* display: flex; */
+  padding: 30px;
+  /* justify-content: flex-start; */
+  /* gap: 50px;  */
+  /* display: inline-block; */
+}
+
+.title {
+  font-size: 50px;
+  color: white;
+}
+.heart-pic {
+  width: 40px;
+  height: 50px;
+}
+.btn {
+  /* padding-top: 25px; */
+  border-radius: 75px;
+  border-color: blueviolet;
+  background-color: white;
+  color: blueviolet;
+  width: 95px;
+  height: 55px;
+  font-weight: bold;
+}
+
+.petline2 {
+  /* margin-top: -30p */
+}
+
+.selection {
+  margin-top: -95px;
+  /* margin-left: 20px; */
+  margin-right: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  padding: 10px;
+  padding-top: -10px;
+  margin-left: 55px;
+}
+
+.paw-pic {
+  width: 50px;
+}
+.location {
+  /* display: inline; */
+  border: 2px solid black;
+  /* display: flex; */
+  margin-top: 45px;
+  /* margin-right: -45px; */
+  /* margin-left: 50px; */
+  display: flex;
+  /* margin-left: -350px;  */
+  /* margin-bottom: -30px; */
+}
+
+.pin {
+  display: flex;
+}
+.title-pic2 {
+  display: flex;
+}
+.purplebtn {
+  margin: 10px;
+  background-color: blueviolet;
+  color: white;
+  box-shadow: black;
+  border-radius: black;
+  width: 100px;
+  height: 35px;
+}
+/* *Animals & Boxes */
+.animal-container {
+  width: 1000px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-right: 40px;
+}
+
+.animal-box {
+  border: lightgray;
+  width: 750px;
+
+  background-color: lightgray;
+  margin-bottom: 20px;
+  border-radius: 35px;
+}
+
+.animal-box img {
+  width: 20%;
+  padding: 10px;
+  display: flex;
+}
+
+.pet1,
+.pet2,
+.pet3 {
+  display: flex;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+  height: 25%;
+  width: 30%;
+  margin: 20px;
+  color: white;
+  background-color: teal;
+  box-shadow: black;
+}
+.name1,
+.name2,
+.name3 {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-top: 10px;
+  text-align: left;
+}
+.description1,
+.description2,
+.description3 {
+  display: flex;
+  margin-top: 40px;
+  text-align: left;
+  margin-right: 50px;
+}
+
+#count,
+#count2,
+#count3 {
+  display: flex;
+  margin-right: 20px;
+}

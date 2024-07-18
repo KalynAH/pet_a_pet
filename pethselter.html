@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Pet Shelter Top Only</title>
+    <link rel="stylesheet" href="petshelter.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="title-heart">
+            <img src="assets/heart-light.png" class="heart" alt="a picture of a heart symbol">
+            <p class=navtitle> Pet Shelter</p>
+        </div>
+
+        <div class="navlinks">
+            <nav>
+                <a href="#">Find A Pet</a>
+                <a href="#">About</a>
+                <button class="btn" onclick="hide(this)">Donate</button>
+            </nav>
+        </div>
+    </div>
+    <div class="navbar2">
+        <div class="dropdown-paw">
+            <img src="assets/paw-light.png" class="paw" alt=paw picture>
+            <form>
+                <p> In or near a city...</p>
+                <input type="Search" value="Search" placeholder="City or Zip code">
+            </form>
+            <div class="selection">
+                <div class="dropdown-pin">
+                    <img src="./assets/pin-light.png" alt="pin icon" class="pin-pic">
+                    <form>
+                        <p> I am looking for a ...</p>
+                        <select name="Pet-choice" onchange="change(this);">
+                            <option value="Any-Pet">Any Pet</option>
+                            <option value="Dog">Dog</option>
+                            <option value="Cat">Cat</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <button class="purplebtn"> Find Your New Best Friend</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
